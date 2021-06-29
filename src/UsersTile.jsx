@@ -5,7 +5,6 @@ import { UserContext } from './App';
 
 export const UsersTile = () => {
   const users = useContext(UserContext);
- console.log(users[0])
  
     return (
         <div className="UsersTile-container">

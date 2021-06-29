@@ -8,7 +8,6 @@ export const UserDetails = (props) => {
     const users = useContext(UserContext);
     const {email} = useParams();
     const user = users.find(user => user.email === email)
-    console.log(user)
     const {name} = user;
     const fullName = `${name.title} ${name.first} ${name.last}`
     return (

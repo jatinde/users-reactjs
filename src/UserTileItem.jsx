@@ -4,14 +4,12 @@ import "./UserTileItem.css"
 
 
 export const UserTileItem = ({user}) => {
-    console.log(user)
     const {name} = user;
     const fullName = `${name.title} ${name.first} ${name.last}`
 
     let history = useHistory();
 
   function handleClick(userData) {
-      console.log(userData)
     history.push("/userdetails/"+userData.email);
   }
     return (
