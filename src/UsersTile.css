@@ -1,0 +1,10 @@
+.UsersTile-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.UsersTile-item {
+  flex-basis: 200px;
+}
